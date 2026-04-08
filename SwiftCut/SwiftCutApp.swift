@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 @main
-struct SwiftCutApp: App {
+struct VideoEditorApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,

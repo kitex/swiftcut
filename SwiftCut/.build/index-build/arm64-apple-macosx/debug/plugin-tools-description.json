@@ -1,0 +1,303 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.SwiftCut-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut.build/sources",
+      "importPath" : "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/sugandha/Projects/SwiftCut/SwiftCut/AppDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sugandha/Projects/SwiftCut/SwiftCut/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sugandha/Projects/SwiftCut/SwiftCut/Item.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sugandha/Projects/SwiftCut/SwiftCut/SceneDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sugandha/Projects/SwiftCut/SwiftCut/SwiftCutApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sugandha/Projects/SwiftCut/SwiftCut/TimelineEditor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sugandha/Projects/SwiftCut/SwiftCut/VideoEditorApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sugandha/Projects/SwiftCut/SwiftCut/ViewController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sugandha/Projects/SwiftCut/SwiftCut/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "SwiftCut",
+      "moduleOutputPath" : "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/Modules/SwiftCut.swiftmodule",
+      "objects" : [
+        "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut.build/AppDelegate.swift.o",
+        "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut.build/ContentView.swift.o",
+        "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut.build/Item.swift.o",
+        "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut.build/SceneDelegate.swift.o",
+        "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut.build/SwiftCutApp.swift.o",
+        "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut.build/TimelineEditor.swift.o",
+        "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut.build/VideoEditorApp.swift.o",
+        "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut.build/ViewController.swift.o",
+        "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j18",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-swift-version",
+        "6",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-I",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-L",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-plugin-path",
+        "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "swiftcut"
+      ],
+      "outputFileMapPath" : "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/Modules/SwiftCut.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/sugandha/Projects/SwiftCut/SwiftCut/AppDelegate.swift",
+        "/Users/sugandha/Projects/SwiftCut/SwiftCut/ContentView.swift",
+        "/Users/sugandha/Projects/SwiftCut/SwiftCut/Item.swift",
+        "/Users/sugandha/Projects/SwiftCut/SwiftCut/SceneDelegate.swift",
+        "/Users/sugandha/Projects/SwiftCut/SwiftCut/SwiftCutApp.swift",
+        "/Users/sugandha/Projects/SwiftCut/SwiftCut/TimelineEditor.swift",
+        "/Users/sugandha/Projects/SwiftCut/SwiftCut/VideoEditorApp.swift",
+        "/Users/sugandha/Projects/SwiftCut/SwiftCut/ViewController.swift",
+        "/Users/sugandha/Projects/SwiftCut/SwiftCut/main.swift"
+      ],
+      "tempsPath" : "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "SwiftCut" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "SwiftCut",
+      "-package-name",
+      "swiftcut",
+      "-c",
+      "/Users/sugandha/Projects/SwiftCut/SwiftCut/AppDelegate.swift",
+      "/Users/sugandha/Projects/SwiftCut/SwiftCut/ContentView.swift",
+      "/Users/sugandha/Projects/SwiftCut/SwiftCut/Item.swift",
+      "/Users/sugandha/Projects/SwiftCut/SwiftCut/SceneDelegate.swift",
+      "/Users/sugandha/Projects/SwiftCut/SwiftCut/SwiftCutApp.swift",
+      "/Users/sugandha/Projects/SwiftCut/SwiftCut/TimelineEditor.swift",
+      "/Users/sugandha/Projects/SwiftCut/SwiftCut/VideoEditorApp.swift",
+      "/Users/sugandha/Projects/SwiftCut/SwiftCut/ViewController.swift",
+      "/Users/sugandha/Projects/SwiftCut/SwiftCut/main.swift",
+      "-I",
+      "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j18",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-swift-version",
+      "6",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-I",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-L",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-plugin-path",
+      "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "swiftcut",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "SwiftCut" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sugandha/Projects/SwiftCut/SwiftCut/AppDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sugandha/Projects/SwiftCut/SwiftCut/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sugandha/Projects/SwiftCut/SwiftCut/Item.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sugandha/Projects/SwiftCut/SwiftCut/SceneDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sugandha/Projects/SwiftCut/SwiftCut/SwiftCutApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sugandha/Projects/SwiftCut/SwiftCut/TimelineEditor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sugandha/Projects/SwiftCut/SwiftCut/VideoEditorApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sugandha/Projects/SwiftCut/SwiftCut/ViewController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sugandha/Projects/SwiftCut/SwiftCut/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut.build/sources"
+    },
+    "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+    }
+  }
+}
