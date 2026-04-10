@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftCut}/SwiftCut",
+            "name": "Debug VideoEditorApp (SwiftCut)",
+            "target": "VideoEditorApp",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug VideoEditorApp (SwiftCut)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftCut}/SwiftCut",
+            "name": "Release VideoEditorApp (SwiftCut)",
+            "target": "VideoEditorApp",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release VideoEditorApp (SwiftCut)"
+        }
+    ]
+}

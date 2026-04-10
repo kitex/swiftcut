@@ -1,0 +1,70 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "SwiftCut-arm64-apple-macosx-debug.module": ["<SwiftCut-arm64-apple-macosx-debug.module>"]
+  "main": ["<SwiftCut-arm64-apple-macosx-debug.module>"]
+  "test": ["<SwiftCut-arm64-apple-macosx-debug.module>"]
+default: "main"
+nodes:
+  "/Users/sugandha/Projects/SwiftCut/SwiftCut/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/sugandha/Projects/SwiftCut/SwiftCut/ContentView.swift","/Users/sugandha/Projects/SwiftCut/SwiftCut/Item.swift","/Users/sugandha/Projects/SwiftCut/SwiftCut/SceneDelegate.swift","/Users/sugandha/Projects/SwiftCut/SwiftCut/SwiftCutApp.swift","/Users/sugandha/Projects/SwiftCut/SwiftCut/TimelineEditor.swift","/Users/sugandha/Projects/SwiftCut/SwiftCut/VideoEditorApp.swift","/Users/sugandha/Projects/SwiftCut/SwiftCut/ViewController.swift","/Users/sugandha/Projects/SwiftCut/SwiftCut/main.swift","/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut.build/DerivedSources/resource_bundle_accessor.swift"]
+    outputs: ["/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut.build/sources"]
+    description: "Write auxiliary file /Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut.build/sources"
+
+  "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut_SwiftCut.bundle/Assets.xcassets":
+    tool: copy-tool
+    inputs: ["/Users/sugandha/Projects/SwiftCut/SwiftCut/Assets.xcassets/"]
+    outputs: ["/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut_SwiftCut.bundle/Assets.xcassets/"]
+    description: "Copying /Users/sugandha/Projects/SwiftCut/SwiftCut/Assets.xcassets"
+
+  "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut_SwiftCut.bundle/LaunchScreen.storyboard":
+    tool: copy-tool
+    inputs: ["/Users/sugandha/Projects/SwiftCut/SwiftCut/LaunchScreen.storyboard"]
+    outputs: ["/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut_SwiftCut.bundle/LaunchScreen.storyboard"]
+    description: "Copying /Users/sugandha/Projects/SwiftCut/SwiftCut/LaunchScreen.storyboard"
+
+  "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut_SwiftCut.bundle/Main.storyboard":
+    tool: copy-tool
+    inputs: ["/Users/sugandha/Projects/SwiftCut/SwiftCut/Main.storyboard"]
+    outputs: ["/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut_SwiftCut.bundle/Main.storyboard"]
+    description: "Copying /Users/sugandha/Projects/SwiftCut/SwiftCut/Main.storyboard"
+
+  "/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"]
+    outputs: ["/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+
+  "<SwiftCut-arm64-apple-macosx-debug.module>":
+    tool: phony
+    inputs: ["/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/Modules/SwiftCut.swiftmodule"]
+    outputs: ["<SwiftCut-arm64-apple-macosx-debug.module>"]
+
+  "C.SwiftCut-arm64-apple-macosx-debug.module":
+    tool: shell
+    inputs: ["/Users/sugandha/Projects/SwiftCut/SwiftCut/ContentView.swift","/Users/sugandha/Projects/SwiftCut/SwiftCut/Item.swift","/Users/sugandha/Projects/SwiftCut/SwiftCut/SceneDelegate.swift","/Users/sugandha/Projects/SwiftCut/SwiftCut/SwiftCutApp.swift","/Users/sugandha/Projects/SwiftCut/SwiftCut/TimelineEditor.swift","/Users/sugandha/Projects/SwiftCut/SwiftCut/VideoEditorApp.swift","/Users/sugandha/Projects/SwiftCut/SwiftCut/ViewController.swift","/Users/sugandha/Projects/SwiftCut/SwiftCut/main.swift","/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut.build/DerivedSources/resource_bundle_accessor.swift","/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","<SwiftCut-arm64-apple-macosx-debug.module-resources>","/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut.build/sources"]
+    outputs: ["/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/Modules/SwiftCut.swiftmodule"]
+    description: "Compiling Swift Module 'SwiftCut' (9 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","SwiftCut","-emit-dependencies","-emit-module","-emit-module-path","/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/Modules/SwiftCut.swiftmodule","-output-file-map","/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut.build/output-file-map.json","-incremental","@/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut.build/sources","-I","/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx10.13","-incremental","-enable-batch-mode","-serialize-diagnostics","-Onone","-enable-testing","-j18","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE","-module-cache-path","/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","SwiftCut_main","-swift-version","6","-Xfrontend","-experimental-lazy-typecheck","-Xfrontend","-experimental-skip-all-function-bodies","-Xfrontend","-experimental-allow-module-with-compiler-errors","-Xfrontend","-empty-abi-descriptor","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","swiftcut"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/sugandha/Projects/SwiftCut/SwiftCut/","/Users/sugandha/Projects/SwiftCut/SwiftCut/Package.swift","/Users/sugandha/Projects/SwiftCut/SwiftCut/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+
+  "SwiftCut-arm64-apple-macosx-debug.module-resources":
+    tool: phony
+    inputs: ["/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut_SwiftCut.bundle/Assets.xcassets/","/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut_SwiftCut.bundle/LaunchScreen.storyboard","/Users/sugandha/Projects/SwiftCut/SwiftCut/.build/index-build/arm64-apple-macosx/debug/SwiftCut_SwiftCut.bundle/Main.storyboard"]
+    outputs: ["<SwiftCut-arm64-apple-macosx-debug.module-resources>"]
+

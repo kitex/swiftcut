@@ -20,13 +20,15 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
-        .executableTarget(
+        .target(
             name: "SwiftCut",
-            dependencies: [
-                "UIKit",
-                "AVFoundation"
-            ],
-            path: "."
+            dependencies: [],
+            path: ".",
+            resources: [
+                .process("Assets.xcassets"),
+                .process("LaunchScreen.storyboard"),
+                .process("Main.storyboard")
+            ]
         ),
         .testTarget(
             name: "SwiftCutTests",
